@@ -1,0 +1,49 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+}
+.add-color{
+    color: #575757;
+    font-weight: 600;
+}
+.add-right-border{
+    border-right: solid;
+    border-color: #929292;
+    border-width: 1px;
+}
+.add-top-pad{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.anch{
+    
+    text-decoration: none;
+    color: #0c0902;
+    font-weight: 600;
+    
+}
+
+.add-but-bg{
+    background-color: #f2ae2b;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 1em;
+    min-width: 168px;
+}
+.logo-make{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #d5d5d5;
+    height: 32px;
+    width: 32px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      font-size: 12px;
+    }
+    .add-logo{
+        height: 45px;
+        width: 45px;
+    }
+  }

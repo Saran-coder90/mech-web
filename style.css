@@ -16,20 +16,33 @@ body{
     padding-bottom: 2em;
 }
 .anch{
-    
     text-decoration: none;
     color: #0c0902;
     font-weight: 600;
-    
 }
-
+.anch:hover{
+    color: #ffffff;
+}
 .add-but-bg{
     background-color: #f2ae2b;
     border-top-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    padding: 1em;
     min-width: 168px;
+    padding: 0.9em;
 }
+
+.add-but-bg:hover{
+    background-color: #120d03;
+    
+}
+/* .anch :hover{
+    background-color: #0c0902;
+} */
+/* .add-but-bg:hover{
+    background-color: #120d03;
+    color: #ffffff;
+} */
+
 .logo-make{
     border-radius: 50%;
     border-style: solid;
@@ -37,6 +50,51 @@ body{
     height: 32px;
     width: 32px;
 }
+
+.nav-bg-color{
+  background-color: #131313;
+  
+}
+
+.menu-item{
+  text-decoration: none;
+  margin: 10px;
+  font-size: 1.1em;
+  color:  #fffffb;
+  font-weight: 600;
+  
+}
+.active{
+  color: #f1a724;
+}
+
+.add-pad{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.add-ml{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+@keyframes circle-in-hesitate {
+    0% {
+      clip-path: circle(0%);
+    }
+    40% {
+      clip-path: circle(40%);
+    }
+    100% {
+      clip-path: circle(125%);
+    }
+  }
+  
+  [transition-style="in:circle:hesitate"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;
+  }
 
 @media only screen and (max-width: 800px) {
     body {
@@ -46,4 +104,5 @@ body{
         height: 45px;
         width: 45px;
     }
+    
   }
